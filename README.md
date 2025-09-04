@@ -50,7 +50,7 @@ spam-detector/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/shuvomdhar/Spam-mail-detector.git
    cd spam-detector
    ```
 
