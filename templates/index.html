@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Spam Detector</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f9;
+        text-align: center;
+        padding: 40px;
+      }
+      textarea {
+        width: 60%;
+        height: 120px;
+        padding: 10px;
+        font-size: 14px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      .result {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📧 Email Spam Detector</h1>
+    <p>Enter your email text below:</p>
+
+    <form method="POST">
+      <textarea
+        name="email_text"
+        placeholder="Paste your email here..."
+        required
+      ></textarea
+      ><br />
+      <button type="submit">Check</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">Prediction: {{ prediction }}</div>
+    {% endif %}
+  </body>
+</html>
