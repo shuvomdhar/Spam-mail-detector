@@ -2,6 +2,8 @@
 
 A machine learning-powered web application that classifies emails and SMS messages as spam or ham (legitimate) using Natural Language Processing techniques.
 
+- View Project at [spam detector](https://spam-mail-detector-y8mi.onrender.com)
+
 ## 🌟 Features
 
 - **Real-time Classification**: Instantly classify email/SMS text as spam or legitimate
